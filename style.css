@@ -1,0 +1,164 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400&display=swap');
+    /*--font1: 'Alata', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;f;*/
+
+:root {
+    --cor1:rgb(255, 255, 255);
+    --cor2:rgb(0, 0, 0);
+    --cor3:rgb(140, 140, 140);
+    --cor4:rgb(105, 105, 105);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    
+}
+
+main {
+    background:linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.192)100%), url(./images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    align-items: baseline;
+    
+}
+
+.logo {
+    display: inline-block;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.logo a {
+    font-family: 'Alata', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    color: var(--cor1);
+    text-decoration: none;
+
+}
+
+
+.menu-toggle {
+    float: right;   
+    color: #eee;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 40px;
+    padding: 20px 20px;
+    margin:  20px 15px;
+}
+
+
+.menu-nav {
+    display: inline-block;
+}
+
+.menu-nav  {
+    float: right;
+    height: 80px;
+    padding: 35px;
+
+}
+
+.menu-nav ul {
+    padding-right: 47px;
+    margin: 0;
+}
+
+.menu-nav li{
+    display: inline-block;
+    
+}
+
+.menu-nav a {
+    font-family: 'Alata', sans-serif;
+    padding-right: 40px;
+    font-size: 16px;
+    color: var(--cor1);
+    text-decoration: none;
+}
+
+.menu-nav a:hover {
+    text-decoration: underline;
+}
+
+.all-menu {
+    padding-top: 40px;
+}
+
+main .slogan {
+    border: solid var(--cor1) 2px;
+    color: var(--cor1);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 65px;
+    font-weight: 300;
+    width: 600px;
+    padding: 35px 0px 35px 35px;
+
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+section  {
+    background-image: url(/images/desktop/image-interactive.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+
+    margin-top: 200px;
+    margin-left: 120px;    
+}
+
+
+section .text h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--cor2);
+    font-size: 50px;
+    font-weight:300;
+}
+
+section .text p {
+    font-family: 'Josefin Sans', sans-serif;
+    color:var(--cor3);
+    font-weight: bold;
+    font: 14px;
+    padding-top: 20px;
+}
+
+.text {
+    position:absolute;
+    background-color: violet;
+    width: 200px;
+    padding: 60px 60px 60px 60px;
+   
+    margin-top: 200px;
+    margin-left: 590px;
+}
+
+@media(min-width: 1100px) {
+    .menu-toggle{
+        display: none;
+    }
+}
+
+@media(max-width: 1100px) {
+    .menu-nav{
+        display: none;
+    }
+}
+
+
+
+
+
+ 
