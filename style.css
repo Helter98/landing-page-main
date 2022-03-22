@@ -109,40 +109,73 @@ main .slogan {
     margin-left: 120px;
 }
 
-section  {
+.interative  {
     background-image: url(/images/desktop/image-interactive.jpg);
     background-repeat: no-repeat;
     height: 500px;
-    width: 100%;
+    width: 1200pxx;
 
     margin-top: 200px;
     margin-left: 120px;    
 }
 
 
-section .text h1 {
+.interative .text h1 {
     font-family: 'Josefin Sans', sans-serif;
     color: var(--cor2);
     font-size: 50px;
     font-weight:300;
 }
 
-section .text p {
+.interative .text p {
     font-family: 'Josefin Sans', sans-serif;
     color:var(--cor3);
     font-weight: bold;
-    font: 14px;
+    font: 12px;
     padding-top: 20px;
 }
 
 .text {
     position:absolute;
-    background-color: violet;
-    width: 200px;
-    padding: 60px 60px 60px 60px;
+    background-color: var(--cor1);
+    width: 600px;
+    padding: 90px 25px 90px 90px;
    
     margin-top: 200px;
-    margin-left: 590px;
+    margin-left: 557px;
+}
+
+.creation {
+    margin-top: 100px;
+    display: flex;
+    margin-left: 120px;    
+    justify-content: space-between;
+}
+
+.creation h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--cor2);
+    font-size: 46px;
+    font-weight:300;
+}
+
+.creation button {
+    background-color: var(--cor1);
+    font-family: 'Josefin Sans', sans-serif;
+    border: solid black 1px;
+    padding: 10px 30px;
+    cursor: pointer;
+
+    margin-right: 120px;
+}
+
+.creation button:hover {
+    background-color: black;
+    color: white;
+}
+
+.cards-container {
+    display:inline-flex;
 }
 
 @media(min-width: 1100px) {
